@@ -18,3 +18,28 @@ the shifts in the positions of pixels. Trained over ImageNet, an image dataset
 consisting of 1 million images within 1,000 categories, VGG16 has become a 
 renowned name in the domain of Machine Learning.
 
+#Challenges in the system
+1. Limited and Imbalanced Data: Obtaining a large and well-curated 
+dataset of brain tumor images can be challenging. The availability of 
+labeled data is often limited, and there can be an imbalance in the 
+number of samples across different tumor types, making it difficult to 
+train accurate models.
+2. Complex and Heterogeneous Tumor Patterns: Brain tumors can 
+exhibit diverse characteristics and appearances, even within the same 
+tumor type. Tumors can have variations in size, shape, location, and 
+texture, making it challenging to capture all the variations and develop 
+robust models that generalize well.
+3. Generalization to New Data: It is essential for the models to 
+generalize well to unseen data, especially when dealing with brain 
+tumor detection and classification. The models should be able to 
+accurately detect and classify tumors in images that are different from 
+the training data, such as images from different institutions or with 
+different imaging modalities.
+4. Handling Small Tumors or Subtle Abnormalities: Detecting small 
+tumors or subtle abnormalities in brain images can be challenging due 
+to their low contrast and similarity to normal brain tissues. These 
+abnormalities can be easily overlooked or misinterpreted, leading to 
+false negatives or false positives.
+
+#Dataset
+https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset
