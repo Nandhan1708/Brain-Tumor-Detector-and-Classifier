@@ -18,7 +18,7 @@ the shifts in the positions of pixels. Trained over ImageNet, an image dataset
 consisting of 1 million images within 1,000 categories, VGG16 has become a 
 renowned name in the domain of Machine Learning.
 
-#Challenges in the system
+# Challenges in the system
 1. Limited and Imbalanced Data: Obtaining a large and well-curated 
 dataset of brain tumor images can be challenging. The availability of 
 labeled data is often limited, and there can be an imbalance in the 
@@ -41,5 +41,5 @@ to their low contrast and similarity to normal brain tissues. These
 abnormalities can be easily overlooked or misinterpreted, leading to 
 false negatives or false positives.
 
-#Dataset
+# Dataset
 https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset
