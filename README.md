@@ -42,4 +42,24 @@ abnormalities can be easily overlooked or misinterpreted, leading to
 false negatives or false positives.
 
 # Dataset
-https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset
+The dataset includes four categories of brain scans:
+Glioma: Glioma is a type of tumor that arises from the supportive cells of the brain, 
+such as astrocytes and oligodendrocytes. These tumors can be malignant or benign.
+
+Meningioma: Meningioma is a type of tumor that develops from the meninges, the 
+protective covering of the brain and spinal cord. These tumors are usually benign 
+but can sometimes be malignant.
+
+Pituitary: The pituitary gland is a small gland located at the base of the brain that 
+produces hormones. Pituitary tumors can cause an overproduction or 
+underproduction of hormones, leading to various symptoms.
+
+No tumor: This category includes MRI images of the brain without any tumors or 
+abnormalities.
+
+Each category contains a set of MRI images that have been preprocessed and 
+labeled by medical professionals. The images are in DICOM format and can be 
+processed using various machine learning algorithms for tumor detection and 
+classification.
+
+Link - https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset
